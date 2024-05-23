@@ -35,7 +35,7 @@ public class InteractingWithWebElements extends BrowserSetup{
         System.out.println("---------------------------------------------------------------------------");
         browser.switchTo().newWindow(WindowType.TAB);
         browser.get("https://www.google.co.uk/");
-        Boolean isEnable = enableStatus(By.xpath("//textarea[@id='APjFqb']"));
+        Boolean isEnable = enableStatus(By.xpath("//textarea[@id='APjFqb']"));  //checks if element is enabled or not
         System.out.println(isEnable);
         Thread.sleep(1000);
 
